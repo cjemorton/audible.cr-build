@@ -1,0 +1,19 @@
+name: audible
+version: 0.1.0
+
+authors:
+   - name <clem16@gmail.com>
+
+description: |
+   Audible Project
+dependencies:
+  audible:
+    github: omarroth/audible.cr
+  readline:
+    github: crystal-lang/crystal-readline
+
+development_dependencies:
+  webmock:
+    github: manastech/webmock.cr
+
+license: MIT

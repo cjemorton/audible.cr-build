@@ -1,0 +1,18 @@
+version: 1.0
+shards:
+  audible:
+    github: omarroth/audible.cr
+    version: 0.2.4
+
+  openssl_ext:
+    github: randomstate/openssl_ext
+    commit: 73d3a5a939705c2ee017ad00632a900f42a3eadb
+
+  readline:
+    github: crystal-lang/crystal-readline
+    version: 0.1.0
+
+  webmock:
+    github: manastech/webmock.cr
+    version: 0.12.1
+
