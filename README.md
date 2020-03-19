@@ -4,7 +4,7 @@ To install.
 
 Clone Repository, and run.
 
-`shards update`
+`[shards update`
 `./build.sh`
 
 Move the binaries to your path. ex.
