@@ -1,7 +1,8 @@
 require "json"
 
-json_text = %([1, 2, 3])
-puts Array(Int32).from_json(json_text) # => [1, 2, 3]
+library = Path["library.json"].expand(home: true)
 
-json_text = %({"x": 1, "y": 2})
-puts Hash(String, Int32).from_json(json_text) # => {"x" => 1, "y" => 2}
+
+json = File.open("#{library}") do |file|
+  JSON.parse(file)
+end
