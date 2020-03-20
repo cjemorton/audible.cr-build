@@ -1,6 +1,8 @@
 require "audible"
 # Purpose: Get every book in library.
 
+# TODO: Figure out how to use different parameters for the endpoints. ex. How to request pages.
+
 # Config.
 session = Path["~/.audible.json"].expand(home: true)
 
