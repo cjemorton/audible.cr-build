@@ -15,6 +15,9 @@ Move the binaries to your path. ex.
 
 `shards update && ./build.sh && sudo mv adlink /usr/local/bin/ && sudo mv auauth /usr/local/bin/`
 
+# TODO
+- Move the build process to a makefile.
+
 
 # Source
 
