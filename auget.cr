@@ -50,7 +50,43 @@ def get_json(asin,session)
 
   over = parsed["item"]["available_codecs"]
 
-  p over[1]["enhanced_codec"]
+  #p over[1]["enhanced_codec"]
+  if (over[0].to_s.blank?) {
+    p "Blank"
+  } else {
+    p over[0]["enhanced_codec"]
+  }
+  end
+
+  if (over[1].to_s.blank?) {
+    p "Blank"
+  } else {
+    p over[1]["enhanced_codec"]
+  }
+  end
+
+  if (over[2].to_s.blank?) {
+    p "Blank"
+  } else {
+    p over[2]["enhanced_codec"]
+  }
+  end
+
+  if (over[3].to_s.blank?) {
+    p "Blank"
+  } else {
+    p over[3]["enhanced_codec"]
+  }
+  end
+
+  if (over[4].to_s.blank?) {
+    p "Blank"
+  } else {
+    p over[4]["enhanced_codec"]
+  }
+  end
+
+
 end
 
 # crystal auget.cr --progress --error-trace -- -a B07WZVDD1B
